@@ -1,4 +1,4 @@
-package csa.backend;
+package csa;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
