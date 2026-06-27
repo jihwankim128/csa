@@ -1,0 +1,104 @@
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor / IDE
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.example.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+!.env.local.example
+
+# Secrets
+*.pem
+*.key
+*.crt
+*.p12
+*.jks
+secrets/
+.secrets/
+credentials/
+application-secret.yml
+application-secret.yaml
+
+# Frontend / Node / Next.js
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/coverage/
+frontend/.vercel/
+frontend/.turbo/
+frontend/.swc/
+frontend/.eslintcache
+
+# Package manager
+frontend/.npm/
+frontend/.pnpm-store/
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/sdks
+!frontend/.yarn/versions
+
+# Backend / Gradle / Java
+backend/.gradle/
+backend/**/build/
+backend/**/out/
+backend/**/bin/
+.gradle/
+build/
+out/
+bin/
+
+# Keep Gradle Wrapper
+!backend/gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java runtime dumps
+hs_err_pid*
+replay_pid*
+*.hprof
+
+# Testcontainers / local runtime
+.testcontainers.properties
+
+# Local files
+tmp/
+temp/
+.local/
+uploads/
+storage/
+r2-local/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+pgdata/
+postgres-data/
+
+# Generated docs / reports
+coverage/
+reports/
+site/
